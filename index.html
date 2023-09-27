@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Транспортные перевозки по России</title> <!-- Название сайта -->
+    <link rel="shortcut icon" href="img/ico/favicon.ico" type="image/png"> <!-- иконка сайта -->
+
+    <link rel="stylesheet" href="css/main.css"> <!-- css файлы -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic"> <!-- шрифт -->
+</head>
+<body>
+    <header> <!-- Блок заголовок включающий в себя логотип, контактные данные и меню -->
+        <div class="contact_block">
+            <div class="logo">
+                <img class="logo_img" src="img/header/logo_tms.png" alt="">
+                <p class="logo_name">Транс магистраль сервис</p>
+            </div>
+            <div class="contact">
+                <img src="img/header/header_contact_bc.png" alt="">
+                <p class="nubmer">+7 (495) 366 54 92</p>
+                <p class="email">tms.official@mail.ru</p>
+            </div>
+        </div>
+        <nav class="menu">
+            <a href="" class="menu_button_home">
+                <img src="img/header/header_logo_home.png" alt="">
+            </a>
+            <a href="#section_company_info" class="menu_button">О компании</a>
+            <a href="#section_company_services" class="menu_button">Услуги</a>
+            <a href="" class="menu_button">Новости</a>
+            <a href="#section_company_table_info" class="menu_button">Информация</a>
+            <a href="#footer" class="menu_button">Контакты</a>
+        </nav>
+    </header>
+
+    <main> <!-- Основной блок состоящий из различных секций -->
+        <section class="head"> <!-- Первая секция, которою будет видно сразу при прогрузке страницы -->
+            <div class="head_background"><img src="img/main/head/bc.jpg" alt=""></div>
+            <div class="head_info">
+                <h1>Грузовые перевозки по всей России <br> <i>и международное экспедирование грузов</i></h1>
+            </div>
+            <div class="head_merit"> <!-- Информационный блок -->
+                <div class="merit_block">
+                    <p>Складские услуги и логистика</p>
+                    <p>Сложные, тяжеловесные, негабаритные перевозки</p>
+                </div>
+            </div>
+            <a href="#section_company_info" class="button_down"> <!-- Кнопка спуска в следущую секцию -->
+                <span></span>
+            </a>
+        </section>
+
+        <section class="company_info" id="section_company_info"> <!-- Секция, описывающая компанию и ее достижения -->
+            <div class="company_info_description">
+                <img src="img/main/description/description_1.jpg" alt="">
+                <div class="description">
+                    <h1 class="description_header">О компании</h1>
+                    <p>Главный вопрос стоявший перед нами при создании <strong>ТрансМагистральСервис</strong> - можно ли решить все, 
+                        действително все попрсы с логистикой на высочайшем уровне о рамках одной компании? Сегодня мы 
+                        можем уверено сказать - <u>да, можно</u>! Наша компания уже неоднократно коплексно реализовывала 
+                        сложнейшие проекты, начиная от доставки <i>огромных партий груза</i> с другого конца света и заканчивая 
+                        <i>исключительно отвественными заказами</i> на переводку <i>военной техники.</i>
+                    </p>
+                    <a href="">Подробнее</a>
+                </div>
+            </div>
+            <ol class="company_achievements"> <!-- Список достижений -->
+                <div class="achievements"> <!-- Первая строка достижений -->
+                    <div class="achievements_block">
+                        <img src="img/main/description/achievements_logo_1.png" alt="">
+                        <div class="achievements_block_info">
+                            <li>Большой опыт работы</li>
+                            <ol>
+                                <li>Опытные специалисты в грузоперевозках</li>
+                                <li>Знание логистических процессов</li>
+                                <li>Успешные кейсы и рекомендации клиентов</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="achievements_block">
+                        <img src="img/main/description/achievements_logo_2.png" alt="">
+                        <div class="achievements_block_info">
+                            <li>Гарантия выполненных работ</li>
+                            <ol>
+                                <li>Страхование грузов во время перевозки</li>
+                                <li>Соблюдение сроков доставки</li>
+                                <li>Контроль качества услуг</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="achievements"> <!-- Вторая строка достижений -->
+                    <div class="achievements_block">
+                        <img src="img/main/description/achievements_logo_3.png" alt="">
+                        <div class="achievements_block_info">
+                            <li>Поиск оптимальных решений</li>
+                            <ol>
+                                <li>Анализ требований клиента</li>
+                                <li>Подбор наилучшего маршрута</li>
+                                <li>Оптимизация затрат</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="achievements_block">
+                        <img src="img/main/description/achievements_logo_4.png" alt="">
+                        <div class="achievements_block_info">
+                            <li>Полный сервис услуг</li>
+                            <ol>
+                                <li>Предоставление различных видов транспорта</li>
+                                <li>Таможенное оформление грузов</li>
+                                <li>Консультации и сопровождение клиента на всех этапах перевозки</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </ol>
+        </section>
+
+        <section class="company_services" id="section_company_services"> <!-- Секция услуг компании в виде таблицы с картинками и текстом -->
+            <h1 class="company_services_header">Услуги компании</h1>
+            <table>
+                <tr>
+                    <td rowspan="3"> <!-- Ячейка таблицы сотоящая из текста и картинки, описывающий его -->
+                        <div class="td_info">
+                            <img src="img/main/services/services_logo_1.png" alt="">
+                            <h4>Транспортные услуги</h4>
+                        </div>
+                    </td>
+                    <td rowspan="3">
+                        <div class="td_info">
+                            <img src="img/main/services/services_logo_2.png" alt="">
+                            <h4>Перевозки автомобильным транспортом</h4>
+                        </div>
+                    </td>
+                    <td rowspan="3">
+                        <div class="td_info">
+                            <img src="img/main/services/services_logo_3.png" alt="">
+                            <h4>Морские переозки</h4>
+                        </div>
+                    </td>
+                    <td rowspan="3">
+                        <div class="td_info">
+                            <img src="img/main/services/services_logo_4.png" alt="">
+                            <h4>Железнодорожные перевозки</h4>
+                        </div>
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+
+                <tr>
+                    <td rowspan="3">
+                        <div class="td_info">
+                            <img src="img/main/services/services_logo_5.png" alt="">
+                            <h4>Контейнерные перевозки</h4>
+                        </div>
+                    </td>
+                    <td rowspan="3">
+                        <div class="td_info">
+                            <img src="img/main/services/services_logo_6.png" alt="">
+                            <h4>Авиаперевозки</h4>
+                        </div>
+                    </td>
+                    <td rowspan="3">
+                        <div class="td_info">
+                            <img src="img/main/services/services_logo_7.png" alt="">
+                            <h4>Перевозка негабаритных грузов</h4>
+                        </div>
+                    </td>
+                    <td rowspan="3">
+                        <div class="td_info">
+                            <img src="img/main/services/services_logo_8.png" alt="">
+                            <h4>Экспедирование грузов</h4>
+                        </div>
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+
+                <tr>
+                    <td rowspan="3">
+                        <div class="td_info">
+                            <img src="img/main/services/services_logo_9.png" alt="">
+                            <h4>Складские услуги</h4>
+                        </div>
+                    </td>
+                    <td rowspan="3">
+                        <div class="td_info">
+                            <img src="img/main/services/services_logo_10.png" alt="">
+                            <h4>Таможные услуги</h4>
+                        </div>
+                    </td>
+                    <td rowspan="3">
+                        <div class="td_info">
+                            <img src="img/main/services/services_logo_11.png" alt="">
+                            <h4>Консолидация грузов</h4>
+                        </div>
+                    </td>
+                    <td rowspan="3">
+                        <div class="td_info">
+                            <img src="img/main/services/services_logo_12.png" alt="">
+                            <h4>Аутсорсинг ВЭД</h4>
+                        </div>
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+            </table>
+        </section>
+
+        <section class="company_table_info" id="section_company_table_info"> <!-- Секция с информационной таблицей о компании. Их возможные перевозки и грузы -->
+            <table>
+                <caption>Перевозка и груз</caption>
+                <tr>
+                    <td rowspan="6"><strong>Тип груза</strong></td>
+                    <td rowspan="3" colspan="2"><em>Интернет-магазин</em></td>
+                    <td rowspan="3" colspan="2"><em>Стандартные маршруты</em></td>
+                    <td rowspan="6"><strong>Виды перевозок</strong></td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td rowspan="3">Сырье и материалы</td>
+                    <td rowspan="3">Готовая продукция</td>
+                    <td rowspan="3">Москва - Санкт-Петербург</td>
+                    <td rowspan="3">Санкт-Петербург - Владивосток</td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td rowspan="6"><strong>Вес груза</strong></td>
+                    <td>до 1000 кг</td>
+                    <td>до 500 кг</td>
+                    <td>Санкт-Петербург - Казань</td>
+                    <td>Нижний Новгород - Самара</td>
+                    <td>Наземный</td>
+                </tr>
+                <tr>
+                    <td>1-5 тонн</td>
+                    <td>500-1000 кг</td>
+                    <td>Москва - Новосибирск</td>
+                    <td>Санкт-Петербург - Ростов-на-Дону</td>
+                    <td>Воздушный</td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td>от 5 тонн</td>
+                    <td>от 1 тонны</td>
+                    <td>Екатеринбург - Ростов-на-Дону</td>
+                    <td>Москва - Екатеринбург</td>
+                    <td>Морской</td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+            </table>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="footer_logo"> <!-- Логотип -->
+            <img class="logo_img" src="img/header/logo_tms.png" alt="">
+            <p class="logo_name">Транс магистраль сервис</p>
+        </div>
+        <div class="footer_location"> <!-- Адресс и почта -->
+            <p class="footer_location_address">г. Москва, 1-я Тверская-Ямская улица, дом 21</p>
+            <p class="footer_location_email">tms.official@mail.ru</p>
+        </div>
+        <div class="footer_contact"> <!-- Телефон -->
+            <p class="footer_contact_nubmer">+7 (495) 366 54 92</p>
+            <p class="footer_contact_text">Обратный звонок</p>
+        </div>
+        <div class="footer_href"> <!-- Ссылки на соц. сети -->
+            <a href="" class="footer_href_icon">
+                <img src="img/main/footer/footer_logo_tg.png" alt="">
+            </a>
+            <a href="" class="footer_href_icon">
+                <img src="img/main/footer/footer_logo_vk.png" alt="">
+            </a>
+            <a href="" class="footer_href_icon">
+                <img src="img/main/footer/footer_logo_wa.png" alt="">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
